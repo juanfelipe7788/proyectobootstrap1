@@ -1,0 +1,68 @@
+header{
+    background: black;
+    color: white;
+    
+}
+
+.main{
+    background: #CFD8DD;
+    
+}
+
+.texto{
+    
+    margin: 40px ;
+
+}
+
+.color1{
+    background: white;
+    top: 40px;
+    border: 1px solid #000;
+
+}
+
+footer{
+    background-color: gray;
+    text-align: center ;
+    color: white;
+    
+}
+
+
+
+@media screen and (max-width: 320px){
+    .texto{
+        text-align: center;
+        background-color: white;
+        
+    }
+}
+
+@media screen and (max-width: 320px){
+    .color1{
+        
+        text-align: center;
+        border: 0px solid ;
+        top: 30px;
+
+    }
+}
+
+@media screen and (max-width: 320px){
+    .link{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .link2{
+         text-align: right;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .main{
+        background-color: white;
+    }
+}
